@@ -17,5 +17,19 @@ h1 {
 .tarjetasAtracciones{
     display: flex;
     flex-direction: row;
+    float: left;
+ 	padding: .75rem;
+ 	border: 0;
 }
+
+.tarjetasAtracciones > img {
+	margin-bottom: .75rem;
+}
+
+.tarjetasAtracciones-wrap {
+	overflow-x: scroll;
+	display: flex;
+}
+
+
 
