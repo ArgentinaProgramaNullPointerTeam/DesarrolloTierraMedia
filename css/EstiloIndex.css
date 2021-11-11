@@ -22,13 +22,15 @@ h1 {
     float: left;
  	padding: .75rem;
  	border: 0;
+ 	align-items: center;
 }
 
 .tarjetasAtracciones > img{
     max-width: 100%;
     height: auto;
 }
-.tarjetasAtracciones-wrap {
+
+/*.tarjetasAtracciones-wrap {
 	overflow-x: scroll;
 	display: flex;
-}
+} */
