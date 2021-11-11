@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 *{
     margin: 0;
     padding: 0;
@@ -22,14 +24,11 @@ h1 {
  	border: 0;
 }
 
-.tarjetasAtracciones > img {
-	margin-bottom: .75rem;
+.tarjetasAtracciones > img{
+    max-width: 100%;
+    height: auto;
 }
-
 .tarjetasAtracciones-wrap {
 	overflow-x: scroll;
 	display: flex;
 }
-
-
-
