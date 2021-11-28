@@ -5,6 +5,9 @@
     padding: 0;
     
 }
+body{
+    font-family: 'Inconsolata', monospace;
+}
 
 body, nav{
     background-color: #FAD6A5;
@@ -12,17 +15,18 @@ body, nav{
 
 h1 {
     color:black;
-    display: flex;
-    align-items: center;
+    margin-left: 40%;
+    
 }
 
 .tarjetasAtracciones{
     display: flex;
     flex-direction: row;
     float: left;
- 	padding: .75rem;
+
  	border: 0;
  	align-items: center;
+   
 }
 
 .tarjetasAtracciones > img{
@@ -34,3 +38,12 @@ h1 {
 	overflow-x: scroll;
 	display: flex;
 } */
+iframe{
+
+  width: 800px;
+  height: 500px;
+  /*Sólo para que se vea, ya que la dirección al parecer está mal*/
+  border: 10px solid white;
+  margin-left: 25%;
+}
+}
