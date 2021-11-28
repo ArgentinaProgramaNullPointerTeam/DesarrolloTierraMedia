@@ -9,6 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estiloIndex.css">
     <title>Tierra Media</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
 
   </head>
   
@@ -17,8 +20,8 @@
   <div class="container-fluid">
     <a class="navbar-brand" href="#"></a>
     <form class="d-flex">
-      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-      <button class="btn btn-outline-success" type="submit">Search</button>
+      <input class="form-control me-2" type="search" placeholder="Escribi la atracción que buscas" aria-label="Buscar">
+      <button class="btn btn-outline-success" type="submit">Buscar</button>
     </form>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -26,9 +29,10 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
-        <a class="nav-link" href="seccionesAdm.html">Administracion de Tierra Media</a>
+      
         <a class="nav-link" href="nosotros.html">Nosotros</a>
       </div>
+        <a class="nav-link" href="seccionesAdm.html">Administracion de Tierra Media</a>
     </div>
   </div>
 </nav>
@@ -39,7 +43,7 @@
       <nav>
         <div class="container-fluid">
         
-              <img src="https://tse2.mm.bing.net/th?id=OIP.kMctu5IQqTgvUQ1SriPpWQHaEe&pid=Api&P=0&w=277&h=168" alt="" width="150" height="100" class="d-inline-block align-text-top">
+              <img src="https://tse2.mm.bing.net/th?id=OIP.kMctu5IQqTgvUQ1SriPpWQHaEe&pid=Api&P=0&w=277&h=168" alt="" width="150" height="100" class="d-inline-block align-text-top" style="margin-top: 4%">
               
            
         </nav>
@@ -50,12 +54,13 @@
         <iframe  src="https://www.youtube.com/embed/3a5k0roFFMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 		<!-- Primer div -->
+    <div>
        <div class="tarjetasAtracciones">
         <div class="card" style="width: 18rem;">
             <img src="src/fondo.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Bosque Negro</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Ésta atraccion de Aventura está incluida en el pack AVENTURA con un precio promocional</p>
             </div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Cupos: 12</li>
@@ -63,18 +68,19 @@
               <li class="list-group-item">Costo: 3 monedas</li>
             </ul>
             <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+             <button type="button" class="btn btn-success">Comprar atracción</button>
+              <button type="button" class="btn btn-success" style="margin-top: 2%">Comprar Pack Aventura</button>
+             
             </div>
           </div>
           </div>
-				<!-- Segundo div -->
+        <!-- Segundo div -->
           <div class="tarjetasAtracciones">
             <div class="card" style="width: 18rem;">
                 <img src="src/fondo.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Moria</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">Ésta atracción es de tipo AVENTURA y no esta incluida en ningun pack</p>
                 </div>
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item">Cupos: 6</li>
@@ -82,18 +88,17 @@
                   <li class="list-group-item">Costo: 10 monedas</li>
                 </ul>
                 <div class="card-body">
-                  <a href="#" class="card-link">Card link</a>
-                  <a href="#" class="card-link">Another link</a>
+                   <button type="button" class="btn btn-success">Comprar atracción</button>
                 </div>
               </div>
               </div>
-             	 <!-- Tercer div -->
+               <!-- Tercer div -->
               <div class="tarjetasAtracciones">
                 <div class="card" style="width: 18rem;">
                     <img src="src/fondo.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title"> Mordor</h5>
-                      <p class="card-text">Esta atraccion de aventura esta incluida en el Pack aventura </p>
+                      <p class="card-text">Ésta atraccion de aventura esta incluida en el Pack aventura con un precio promocional </p>
                     </div>
                     <ul class="list-group list-group-flush">
                       <li class="list-group-item">Cupos: 20</li>
@@ -101,18 +106,19 @@
                       <li class="list-group-item">Costo: 20 monedas</li>
                     </ul>
                     <div class="card-body">
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
+                       <button type="button" class="btn btn-success">Comprar atracción</button>
+              <button type="button" class="btn btn-success" style="margin-top: 2%">Comprar Pack Aventura</button>
+ 
                     </div>
                   </div>
-                  </div>
+                  </div> <div>
                         <!-- Cuarto div -->
               <div class="tarjetasAtracciones">
                 <div class="card" style="width: 18rem;">
                     <img src="src/fondo.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Lothlórien</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text">Ésta atracción es de tipo degustacion y esta incluida en el pack DEGUSTACIÓN con un descuento absoluto.</p>
                     </div>
                     <ul class="list-group list-group-flush">
                       <li class="list-group-item">Cupos: 30</li>
@@ -120,18 +126,20 @@
                       <li class="list-group-item">Costo: 35 monedas</li>
                     </ul>
                     <div class="card-body">
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
+                         <button type="button" class="btn btn-success">Comprar atracción</button>
+              <button type="button" class="btn btn-success" style="margin-top: 2%">Comprar Pack Degustación</button>
                     </div>
                   </div>
                   </div>
+                  </div>
+                 
                         <!--Quinto div -->
               <div class="tarjetasAtracciones">
                 <div class="card" style="width: 18rem;">
                     <img src="src/fondo.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Erebor</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text">Ésta atracción esta incluida en el pack Paisaje. Comprando este pack, tenes una atracción de regalo.</p>
                     </div>
                     <ul class="list-group list-group-flush">
                       <li class="list-group-item">Cupos: 32</li>
@@ -139,18 +147,18 @@
                       <li class="list-group-item">Costo: 12 monedas</li>
                     </ul>
                     <div class="card-body">
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
+                        <button type="button" class="btn btn-success">Comprar atracción</button>
+              <button type="button" class="btn btn-success" style="margin-top: 2%">Comprar Pack Paisajes</button>
                     </div>
                   </div>
                   </div>
-                  		<!-- Sexto div -->
+                      <!-- Sexto div -->
              <div class="tarjetasAtracciones">
             <div class="card" style="width: 18rem;">
                 <img src="src/fondo.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Minas Tirith</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">Ésta atracción esta incluida en el pack Paisaje. Comprando este pack, tenes una atracción de regalo.</p>
                 </div>
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item">Cupos: 25</li>
@@ -158,37 +166,37 @@
                   <li class="list-group-item">Costo: 5 monedas</li>
                 </ul>
                 <div class="card-body">
-                  <a href="#" class="card-link">Card link</a>
-                  <a href="#" class="card-link">Another link</a>
+                    <button type="button" class="btn btn-success">Comprar atracción</button>
+              <button type="button" class="btn btn-success" style="margin-top: 2%">Comprar Pack Paisajes</button>
                 </div>
               </div>
               </div>
-              		<!-- Septimo div -->
+                  <!-- Septimo div -->
                <div class="tarjetasAtracciones">
             <div class="card" style="width: 18rem;">
                 <img src="src/fondo.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">La Comarca</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">Ésta atracción es de tipo degustacion y esta incluida en el pack DEGUSTACIÓN con un descuento absoluto</p>
                 </div>
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item">Cupos: 150</li>
                   <li class="list-group-item">Tiempo: 6.5 horas</li>
-                  <li class="list-group-item">Costo: 3 monedas <li>
+                  <li class="list-group-item">Costo: 3 monedas </li>
                 </ul>
                 <div class="card-body">
-                  <a href="#" class="card-link">Card link</a>
-                  <a href="#" class="card-link">Another link</a>
+                    <button type="button" class="btn btn-success">Comprar atracción</button>
+              <button type="button" class="btn btn-success" style="margin-top: 2%">Comprar Pack Degustación</button>
                 </div>
               </div>
               </div>
-              		<!-- Octavo div -->
+                  <!-- Octavo div -->
                <div class="tarjetasAtracciones">
             <div class="card" style="width: 18rem;">
                 <img src="src/fondo.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Abismo de Helm</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">Ésta atracción esta incluida en el pack Paisaje. Comprando este pack, tenes una atracción de regalo.</p>
                 </div>
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item">Cupos: 15</li>
@@ -196,11 +204,33 @@
                   <li class="list-group-item">Costo: 5 monedas</li>
                 </ul>
                 <div class="card-body">
-                  <a href="#" class="card-link">Card link</a>
-                  <a href="#" class="card-link">Another link</a>
+                  <button type="button" class="btn btn-success">Comprar atracción</button>
+              <button type="button" class="btn btn-success" style="margin-top: 2%">Comprar Pack Paisaje</button>
                 </div>
               </div>
               </div>
+       </div>
+
+      <!-- noveno div -->
+       <div class="tarjetasAtracciones">
+            <div class="card" style="width: 18rem;">
+                <img src="src/fondo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">La acotada</h5>
+                  <p class="card-text">Ésta atracción es de tipo aventura y esta incluida solamente en el Pack de aventura recargado
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Cupos: 5</li>
+                  <li class="list-group-item">Tiempo: 3 horas</li>
+                  <li class="list-group-item">Costo: 1 monedas</li>
+                </ul>
+                <div class="card-body">
+                  <button type="button" class="btn btn-success">Comprar atracción Pack aventura recargado</button>
+         
+                </div>
+              </div>
+              </div>
+       </div>
        </div>
        
 
