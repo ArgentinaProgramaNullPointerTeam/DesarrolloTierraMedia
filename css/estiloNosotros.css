@@ -1,13 +1,15 @@
 @charset "utf-8";
 
+
 body {
     padding: 20px;
     font-family: 'Open Sans', sans-serif;
     background-color: #f7f7f7;
 }
 
+
 .lib-panel {
-    margin-bottom: 20Px;
+    margin-bottom: 0Px;
 }
 .lib-panel img {
     width: 100%;
@@ -22,13 +24,13 @@ body {
 
 
 .lib-panel .lib-row {
-    padding: 0 20px 0 20px;
+    padding: 0 0px 0 0px;
 }
 
 .lib-panel .lib-row.lib-header {
     background-color: #FFFFFF;
     font-size: 20px;
-    padding: 10px 20px 0 20px;
+    padding: 20px 20px 0 20px;
 }
 
 .lib-panel .lib-row.lib-header .lib-header-seperator {
@@ -52,7 +54,12 @@ body {
 }
 
 .row-margin-bottom {
-    margin-bottom: 20px;
+	margin: 2px 0 0px 0;
+	background-color: #0c1f3f;
+}
+
+h1 {
+	text-decoration: 1px underline;
 }
 
 .box-shadow {
