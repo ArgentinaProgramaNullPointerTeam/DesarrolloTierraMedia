@@ -22,11 +22,11 @@ h1 {
 .tarjetasAtracciones{
     display: flex;
     flex-direction: row;
-    float: left;
-
+    justify-content: space-around;
+margin-top: 10%;;
  	border: 0;
  	align-items: center;
-   
+   height: 50%;
 }
 
 .tarjetasAtracciones > img{
@@ -40,10 +40,18 @@ h1 {
 } */
 iframe{
 
-  width: 800px;
-  height: 500px;
+  width: 500px;
+  height: 300px;
   /*Sólo para que se vea, ya que la dirección al parecer está mal*/
   border: 10px solid white;
-  margin-left: 25%;
+  margin-left: 65%;
+  margin-top: 5%;;
 }
+
+footer{
+    background-color: rgb(223, 226, 206);
+}
+
+.footerFrase{
+
 }
