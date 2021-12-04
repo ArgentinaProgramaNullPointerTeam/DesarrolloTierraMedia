@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
-
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   
   <!-- Barra de navegacion -->
@@ -29,12 +29,13 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
-      
+        <a class="nav-link" href="itinerario.html">Itinerario Comprado</a>
         <a class="nav-link" href="nosotros.html">Nosotros</a>
       </div>
         <a class="nav-link" href="seccionesAdm.html">Administracion de Tierra Media</a>
     </div>
   </div>
+ 
 </nav>
   
   <body>
@@ -43,201 +44,238 @@
       <nav>
         <div class="container-fluid">
         
-              <img src="https://tse2.mm.bing.net/th?id=OIP.kMctu5IQqTgvUQ1SriPpWQHaEe&pid=Api&P=0&w=277&h=168" alt="" width="150" height="100" class="d-inline-block align-text-top" style="margin-top: 4%">
+              <img src="https://tse2.mm.bing.net/th?id=OIP.kMctu5IQqTgvUQ1SriPpWQHaEe&pid=Api&P=0&w=277&h=168" alt="" width="430" height="250" class="d-inline-block align-text-top" style="margin-top: 4%">
               
            
         </nav>
         <h1>Turismo Tierra Media</h1>
+      
        </header>
        
-       <div class="videito" >
-        <iframe  src="https://www.youtube.com/embed/3a5k0roFFMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-		<!-- Primer div -->
-    <div>
-       <div class="tarjetasAtracciones">
-        <div class="card" style="width: 18rem;">
-            <img src="src/fondo.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Bosque Negro</h5>
-              <p class="card-text">Ésta atraccion de Aventura está incluida en el pack AVENTURA con un precio promocional</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Cupos: 12</li>
-              <li class="list-group-item">Tiempo: 4 horas</li>
-              <li class="list-group-item">Costo: 3 monedas</li>
+      
+
+    <div data-aos="flip-left">      
+<h2 style="margin-top: 5%; margin-left: 25%;"><u>A continuación verás nuestra oferta de atracciones</u> </h2> </div>
+
+<div data-aos="fade-right">
+    <div class="tarjetasAtracciones">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="src/fondo.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Bosque Negro</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Cupos: 12</li>
+            <li class="list-group-item">Tiempo: 4 horas</li>
+            <li class="list-group-item">Costo: 3 monedas</li>
+            <li class="list-group-item">Tipo: AVENTURA</li>
             </ul>
-            <div class="card-body">
-             <button type="button" class="btn btn-success">Comprar atracción</button>
-              <button type="button" class="btn btn-success" style="margin-top: 2%">Comprar Pack Aventura</button>
-             
-            </div>
-          </div>
-          </div>
-        <!-- Segundo div -->
-          <div class="tarjetasAtracciones">
-            <div class="card" style="width: 18rem;">
-                <img src="src/fondo.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Moria</h5>
-                  <p class="card-text">Ésta atracción es de tipo AVENTURA y no esta incluida en ningun pack</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cupos: 6</li>
-                  <li class="list-group-item">Tiempo: 2 horas</li>
-                  <li class="list-group-item">Costo: 10 monedas</li>
-                </ul>
-                <div class="card-body">
-                   <button type="button" class="btn btn-success">Comprar atracción</button>
-                </div>
-              </div>
-              </div>
-               <!-- Tercer div -->
-              <div class="tarjetasAtracciones">
-                <div class="card" style="width: 18rem;">
-                    <img src="src/fondo.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title"> Mordor</h5>
-                      <p class="card-text">Ésta atraccion de aventura esta incluida en el Pack aventura con un precio promocional </p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Cupos: 20</li>
-                      <li class="list-group-item">Tiempo: 5 horas</li>
-                      <li class="list-group-item">Costo: 20 monedas</li>
-                    </ul>
-                    <div class="card-body">
-                       <button type="button" class="btn btn-success">Comprar atracción</button>
-              <button type="button" class="btn btn-success" style="margin-top: 2%">Comprar Pack Aventura</button>
- 
-                    </div>
-                  </div>
-                  </div> <div>
-                        <!-- Cuarto div -->
-              <div class="tarjetasAtracciones">
-                <div class="card" style="width: 18rem;">
-                    <img src="src/fondo.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Lothlórien</h5>
-                      <p class="card-text">Ésta atracción es de tipo degustacion y esta incluida en el pack DEGUSTACIÓN con un descuento absoluto.</p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Cupos: 30</li>
-                      <li class="list-group-item">Tiempo: 1 hora</li>
-                      <li class="list-group-item">Costo: 35 monedas</li>
-                    </ul>
-                    <div class="card-body">
-                         <button type="button" class="btn btn-success">Comprar atracción</button>
-              <button type="button" class="btn btn-success" style="margin-top: 2%">Comprar Pack Degustación</button>
-                    </div>
-                  </div>
-                  </div>
-                  </div>
-                 
-                        <!--Quinto div -->
-              <div class="tarjetasAtracciones">
-                <div class="card" style="width: 18rem;">
-                    <img src="src/fondo.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Erebor</h5>
-                      <p class="card-text">Ésta atracción esta incluida en el pack Paisaje. Comprando este pack, tenes una atracción de regalo.</p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Cupos: 32</li>
-                      <li class="list-group-item">Tiempo: 3 horas</li>
-                      <li class="list-group-item">Costo: 12 monedas</li>
-                    </ul>
-                    <div class="card-body">
-                        <button type="button" class="btn btn-success">Comprar atracción</button>
-              <button type="button" class="btn btn-success" style="margin-top: 2%">Comprar Pack Paisajes</button>
-                    </div>
-                  </div>
-                  </div>
-                      <!-- Sexto div -->
-             <div class="tarjetasAtracciones">
-            <div class="card" style="width: 18rem;">
-                <img src="src/fondo.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Minas Tirith</h5>
-                  <p class="card-text">Ésta atracción esta incluida en el pack Paisaje. Comprando este pack, tenes una atracción de regalo.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cupos: 25</li>
-                  <li class="list-group-item">Tiempo: 2.5 horas</li>
-                  <li class="list-group-item">Costo: 5 monedas</li>
-                </ul>
-                <div class="card-body">
-                    <button type="button" class="btn btn-success">Comprar atracción</button>
-              <button type="button" class="btn btn-success" style="margin-top: 2%">Comprar Pack Paisajes</button>
-                </div>
-              </div>
-              </div>
-                  <!-- Septimo div -->
-               <div class="tarjetasAtracciones">
-            <div class="card" style="width: 18rem;">
-                <img src="src/fondo.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">La Comarca</h5>
-                  <p class="card-text">Ésta atracción es de tipo degustacion y esta incluida en el pack DEGUSTACIÓN con un descuento absoluto</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cupos: 150</li>
-                  <li class="list-group-item">Tiempo: 6.5 horas</li>
-                  <li class="list-group-item">Costo: 3 monedas </li>
-                </ul>
-                <div class="card-body">
-                    <button type="button" class="btn btn-success">Comprar atracción</button>
-              <button type="button" class="btn btn-success" style="margin-top: 2%">Comprar Pack Degustación</button>
-                </div>
-              </div>
-              </div>
-                  <!-- Octavo div -->
-               <div class="tarjetasAtracciones">
-            <div class="card" style="width: 18rem;">
-                <img src="src/fondo.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Abismo de Helm</h5>
-                  <p class="card-text">Ésta atracción esta incluida en el pack Paisaje. Comprando este pack, tenes una atracción de regalo.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cupos: 15</li>
-                  <li class="list-group-item">Tiempo: 2 horas</li>
-                  <li class="list-group-item">Costo: 5 monedas</li>
-                </ul>
-                <div class="card-body">
-                  <button type="button" class="btn btn-success">Comprar atracción</button>
-              <button type="button" class="btn btn-success" style="margin-top: 2%">Comprar Pack Paisaje</button>
-                </div>
-              </div>
-              </div>
-       </div>
+          <a href="#" class="btn btn-success">Comprar atracción</a>
+        </div>
+      </div>
 
-      <!-- noveno div -->
-       <div class="tarjetasAtracciones">
-            <div class="card" style="width: 18rem;">
-                <img src="src/fondo.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">La acotada</h5>
-                  <p class="card-text">Ésta atracción es de tipo aventura y esta incluida solamente en el Pack de aventura recargado
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cupos: 5</li>
-                  <li class="list-group-item">Tiempo: 3 horas</li>
-                  <li class="list-group-item">Costo: 1 moneda</li>
-                </ul>
-                <div class="card-body">
-                  <button type="button" class="btn btn-success">Comprar atracción Pack aventura recargado</button>
-         
-                </div>
-              </div>
-              </div>
-       </div>
-       </div>
-       
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="src/fondo.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Moria</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Cupos: 6</li>
+            <li class="list-group-item">Tiempo: 2 horas</li>
+            <li class="list-group-item">Costo: 10 monedas</li>
+            <li class="list-group-item">Tipo: AVENTURA</li>
+            </ul>
+            <a href="#" class="btn btn-success">Comprar atracción</a>
+        </div>
+      </div>
 
- 
+
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top"  src="src/fondo.jpg"  alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Mordor</h5>
+          <ul class="list-group list-group-flush">
+          <li class="list-group-item">Cupos: 20</li>
+<li class="list-group-item">Tiempo: 5 horas</li>
+<li class="list-group-item">Costo: 20 monedas</li>
+<li class="list-group-item">Tipo: AVENTURA</li>
+</ul>
+         <a href="#" class="btn btn-success">Comprar atracción</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div data-aos="fade-left">
+
+    <div class="tarjetasAtracciones">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top"  src="src/fondo.jpg"  alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Lothlórien</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Cupos: 30</li>
+            <li class="list-group-item">Tiempo: 1 hora</li>
+            <li class="list-group-item">Costo: 35 monedas</li>
+            <li class="list-group-item">Tipo: DEGUSTACIÓN</li>
+            </ul>
+         <a href="#" class="btn btn-success">Comprar atracción</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top"  src="src/fondo.jpg"  alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Erebor</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Cupos: 32</li>
+            <li class="list-group-item">Tiempo: 3 horas</li>
+            <li class="list-group-item">Costo: 12 monedas</li>
+            <li class="list-group-item">Tipo: PAISAJE</li>
+            </ul>
+         <a href="#" class="btn btn-success">Comprar atracción</a>
+        </div>
+      </div>
+
+
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top"  src="src/fondo.jpg"  alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Minas de tirith</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Cupos: 25</li>
+            <li class="list-group-item">Tiempo: 2.5 horas</li>
+            <li class="list-group-item">Costo: 5 monedas</li>
+            <li class="list-group-item">Tipo: PAISAJE</li>
+            </ul>
+         <a href="#" class="btn btn-success">Comprar atracción</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div data-aos="fade-right">
+    <div class="tarjetasAtracciones">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top"  src="src/fondo.jpg"  alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">La comarca</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Cupos: 150</li>
+            <li class="list-group-item">Tiempo: 6.5 horas</li>
+            <li class="list-group-item">Costo: 3 monedas </li>
+            <li class="list-group-item">Tipo: DEGUSTACIÓN</li>
+            </ul>
+         <a href="#" class="btn btn-success">Comprar atracción</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top"  src="src/fondo.jpg"  alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Abismo de Helm</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Cupos: 15</li>
+            <li class="list-group-item">Tiempo: 2 horas</li>
+            <li class="list-group-item">Costo: 5 monedas</li>
+            <li class="list-group-item">Tipo: PAISAJE</li>
+            </ul>
+         <a href="#" class="btn btn-success">Comprar atracción</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div data-aos="fade-right">
+    <h2 style="margin-top: 5%; margin-left: 30%;"><u>Aquí podrás ver nuestras promociones</u> </h2></div>
+    <div data-aos="zoom-in-right">
+
+    <div class="tarjetasAtracciones">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="src/aventura1.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Pack Aventura</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Incluye: Bosque Negro</li>
+            <li class="list-group-item">Incluye: Mordor</li>
+            <li class="list-group-item">20% descuento</li>
+            <li class="list-group-item">Tipo: AVENTURA</li>
+            </ul>
+          <a href="#" class="btn btn-success">Comprar pack Aventura</a>
+        </div>
+      </div>
+   
+
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="src/degustacion.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Pack degustación</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Incluye: Lothlórien</li>
+            <li class="list-group-item">Incluye: La comarca</li>
+            <li class="list-group-item">Costo: 36 monedas</li>
+            <li class="list-group-item">Tipo: DEGUSTACIÓN
+            </li>
+            </ul>
+            <a href="#" class="btn btn-success">Comprar pack Degustación</a>
+        </div>
+      </div>
+
+
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top"  src="src/paisaje.jpg"  alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Pack Paisaje</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Incluye: Minas Tirith</li>
+            <li class="list-group-item">Incluye: Abismo de Helm</li>
+            <li class="list-group-item">Incluye: Erebor de regalo</li>
+            <li class="list-group-item">3x2 </li>
+            <li class="list-group-item">Tipo: PAISAJE</li>
+</ul>
+         <a href="#" class="btn btn-success">Comprar pack Paisaje</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div data-aos="fade-left">
+
+    <div class="tarjetasAtracciones">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top"  src="src/aventura2.jpg"  alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Pack Aventura Recargado</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Incluye: Bosque Negro</li>
+            <li class="list-group-item">Incluye: Mordor</li>
+            <li class="list-group-item">Incluye: La acotada de regalo</li>
+            <li class="list-group-item">3x2 </li>
+            <li class="list-group-item">Tipo: AVENTURA</li>
+            </ul>
+         <a href="#" class="btn btn-success">Comprar Pack Recargado</a>
+        </div>
+      </div>
+      </div>
+    </div>
+
+
+    <footer>
+
+   
+    <div class="videito" >
+      <iframe  src="https://www.youtube.com/embed/3a5k0roFFMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <div> <h3 class="footerFrase">Tierra Media creado por Null Pointer Team con sudor y lágrimas jaja</h3>  </div>
+
+    </footer>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
